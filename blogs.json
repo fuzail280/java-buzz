@@ -1,0 +1,82 @@
+[
+    {
+        "title": "10 Tips for Perfect Coffee",
+        "author": "Jane Doe",
+        "date": "2026-02-22",
+        "image": "image/menu-1.png",
+        "excerpt": "Learn the secrets to brewing the perfect cup every morning...",
+        "link": "#"
+    },
+    {
+        "title": "Cold Coffee Recipes for Summer",
+        "author": "Ali Raza",
+        "date": "2026-02-18",
+        "image": "image/menu-6.png",
+        "excerpt": "Beat the heat with these refreshing cold coffee recipes...",
+        "link": "#"
+    },
+    {
+        "title": "History of Coffee in Pakistan",
+        "author": "Sara Ahmed",
+        "date": "2026-02-17",
+        "image": "image/menu-5.png",
+        "excerpt": "From the first sip to modern cafes, coffee has an interesting journey...",
+        "link": "#"
+    },
+    {
+        "title": "Best Home Brewing Techniques",
+        "author": "Omar Ali",
+        "date": "2026-02-16",
+        "image": "image/menu-4.png",
+        "excerpt": "Brew like a barista with these easy home techniques...",
+        "link": "#"
+    },
+    {
+        "title": "Latte Art 101",
+        "author": "Fatima Noor",
+        "date": "2026-02-15",
+        "image": "image/menu-6.png",
+        "excerpt": "Impress your friends with these simple latte art tips...",
+        "link": "#"
+    },
+        {
+        "title": "How to Choose Your Coffee Beans",
+        "author": "John Smith",
+        "date": "2026-02-20",
+        "image": "image/about-icon-1.png",
+        "excerpt": "Not all beans are created equal. Here's how to pick the best...",
+        "link": "#"
+    },
+    {
+        "title": "Top Coffee Shops in Karachi",
+        "author": "Ayesha Khan",
+        "date": "2026-02-19",
+        "image": "image/about-icon-2.png",
+        "excerpt": "Discover the coolest spots to sip coffee in Karachi...",
+        "link": "#"
+    },
+    {
+        "title": "Coffee and Health Benefits",
+        "author": "Ahmed Raza",
+        "date": "2026-02-14",
+        "image": "image/menu-3.png",
+        "excerpt": "Coffee does more than wake you up. Learn its health perks...",
+        "link": "#"
+    },
+    {
+        "title": "Decaf vs Regular: What's the Difference?",
+        "author": "Hina Malik",
+        "date": "2026-02-13",
+        "image": "image/home-img-1.png",
+        "excerpt": "Decaf isn’t just for sleep. Compare the differences here...",
+        "link": "#"
+    },
+    {
+        "title": "Sustainable Coffee Practices",
+        "author": "Bilal Shah",
+        "date": "2026-02-12",
+        "image": "image/home-img-2.png",
+        "excerpt": "Learn how to enjoy coffee while protecting the environment...",
+        "link": "#"
+    }
+]

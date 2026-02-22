@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Java Buzz Coffee Shop | Best Coffee in Karachi</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Java Buzz Coffee Shop offers fresh coffee, delicious pastries, and cozy ambiance near Karachi Airport. Order online or visit us today!">
+    <meta name="keywords" content="Java Buzz, Coffee Shop, Karachi, Best Coffee, Cappuccino, Latte, Espresso, Mocha, Americano, Online Coffee Order, Coffee Menu">
+    <meta name="author" content="Muhammad Fuzail Raza">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">java buzz<i class="fas fa-mug-hot"></i></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#location">Location</a>
+            <a href="#blog">blog</a>
+        </nav>
+
+        <a href="#menu" class="btn">Order Now</a>
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>fresh coffee in the morning</h3>
+                <a href="#menu" class="btn">buy one now</a>
+            </div>
+
+            <div class="image">
+                <img src="image/home-img-1.png" class="main-home-image" alt="">
+            </div>
+        </div>
+
+        <div class="image-slider">
+            <img src="image/home-img-1.png" alt="">
+            <img src="image/home-img-2.png" alt="">
+            <img src="image/home-img-3.png" alt="">
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <h1 class="heading">about us <span>why choose us</span></h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="image/about-img.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3 class="title">what's make our coffee special!</h3>
+                <p>
+                    At Java Buzz, every cup of coffee is crafted with passion and care. We source the finest Arabica beans from sustainable farms, roast them to perfection, and brew using time-tested techniques to bring out rich flavors and aromatic notes. Our cozy ambiance, friendly staff, and commitment to quality make every visit a memorable coffee experience. Whether you're grabbing a quick cup or relaxing with friends, Java Buzz is the place where great coffee meets comfort.
+                </p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <img src="image/about-icon-1.png" alt="">
+                        <h3>quality coffee</h3>
+                    </div>
+                    <div class="icons">
+                        <img src="image/about-icon-2.png" alt="">
+                        <h3>our branches</h3>
+                    </div>
+                    <div class="icons">
+                        <img src="image/about-icon-3.png" alt="">
+                        <h3>free delivery</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU -->
+
+    <section class="menu" id="menu">
+        <h1 class="heading">our menu <span>popular menu</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/menu-1.png" alt="Our Special Coffee">
+                <div class="content">
+                    <h3>Our Special Coffee</h3>
+                    <p>A rich blend of Arabica and Robusta beans, perfectly roasted for a smooth, aromatic taste.</p>
+                    <span class="price" data-price="8.99">$8.99</span>
+                    <a href="#book" class="btn order-btn">Order</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/menu-2.png" alt="Cappuccino">
+                <div class="content">
+                    <h3>Cappuccino</h3>
+                    <p>Espresso with steamed milk and a foamy top, creating a balanced and creamy flavor.</p>
+                    <span class="price" data-price="7.99">$7.99</span>
+                    <a href="#book" class="btn order-btn">Order</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/menu-3.png" alt="Latte">
+                <div class="content">
+                    <h3>Latte</h3>
+                    <p>A smooth espresso drink with velvety steamed milk, lightly topped with froth for softness.</p>
+                    <span class="price" data-price="6.99">$6.99</span>
+                    <a href="#book" class="btn order-btn">Order</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/menu-4.png" alt="Espresso">
+                <div class="content">
+                    <h3>Espresso</h3>
+                    <p>Classic strong espresso with a bold flavor and creamy crema, perfect for a quick caffeine kick.</p>
+                    <span class="price" data-price="5.99">$5.99</span>
+                    <a href="#book" class="btn order-btn">Order</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/menu-5.png" alt="Mocha">
+                <div class="content">
+                    <h3>Mocha</h3>
+                    <p>A delicious blend of espresso, steamed milk, and chocolate, topped with a light whipped cream.</p>
+                    <span class="price" data-price="7.49">$7.49</span>
+                    <a href="#book" class="btn order-btn">Order</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/menu-6.png" alt="Americano">
+                <div class="content">
+                    <h3>Americano</h3>
+                    <p>Espresso diluted with hot water for a lighter, yet full-bodied coffee flavor, ideal anytime.</p>
+                    <span class="price" data-price="6.49">$6.49</span>
+                    <a href="#book" class="btn order-btn">Order</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="review blogs" id="blog">
+        <h1 class="heading">our blog <span>latest news</span></h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper blog-container">
+                
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- BOOK -->
+    <section class="book" id="book">
+        <h1 class="heading">place your order <span>order now </span></h1>
+
+        <form id="order-form">
+            <input type="text" placeholder="Full Name" id="user-name" class="box" required>
+            <input type="text" placeholder="Location" id="user-location" class="box" required>
+            <input type="number" placeholder="Phone Number" id="user-phone" class="box" required>
+
+            <input type="number" id="coffee-quantity" class="box" min="1" value="" placeholder="Select coffee first" disabled>
+
+            <textarea placeholder="Your Order Details" class="box" id="order-details" cols="30" rows="6" readonly></textarea>
+
+            <input type="submit" value="Submit Order" class="btn" disabled>
+        </form>
+    </section>
+
+    <!-- ORDER CONFIRMATION MODAL -->
+    <div id="order-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Confirm Your Order</h2>
+            <div id="modal-text"></div>
+            <button class="confirm-btn">Confirm Order</button>
+        </div>
+    </div>
+
+    <!-- SUCCESS TOAST -->
+    <div id="success-toast">✅ Order Confirmed!</div>
+
+
+    <!-- LOCATION -->
+    <section class="location" id="location">
+        <h1 class="heading">Our <span>Location</span></h1>
+
+        <div class="location-container">
+
+            <div id="map" style="height: 400px; width: 100%; border-radius: var(--border-radius); margin-bottom: 2rem;"></div>
+
+            <div class="location-info">
+                <h3>Java Buzz</h3>
+                <p>Metro, Karachi</p>
+                <p><strong>Parking:</strong> Available in front of the shop</p>
+                <p><strong>Directions:</strong> Near Airport , take the main Shahrah-e-Faisal </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>our branches</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> USA</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> france</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> japan</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"><i class="fas fa-arrow-right"></i> home</a>
+                <a href="#about"><i class="fas fa-arrow-right"></i> about</a>
+                <a href="#menu"><i class="fas fa-arrow-right"></i> menu</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i> +92 313 2572145</a>
+                <a href="#"><i class="fas fa-phone"></i> +92 345 2196811</a>
+                <a href="#"><i class="fas fa-envelope"></i> javabuzz@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="https://www.facebook.com/gulnaz.shahid.58494/"><i class="fab fa-facebook-f"></i> facebook</a>
+                <a href="https://www.instagram.com/fuzail0611/"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="https://www.linkedin.com/in/muhammad-fuzail-926293356/"><i class="fab fa-linkedin"></i> linkedin</a>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script>
+        const karachiCoords = [24.8615, 67.0099];
+
+        const map = L.map('map').setView(karachiCoords, 16);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        const marker = L.marker(karachiCoords).addTo(map);
+        marker.bindPopup("<b>Java Buzz</b><br>Near Karachi Airport, Shahrah-e-Faisal<br>Open: 8am - 10pm").openPopup();
+    </script>
+
+</body>
+
+</html>
